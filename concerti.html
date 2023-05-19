@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+        <title>OFF</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2? family=Amatic+SC:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f3979af750.js" crossorigin="anonymous"></script>
+      </head>
+
+  <body>
+    <header>
+      <section>
+        <div class="img-container"> 
+          <a id="top" href="index.html"><img id="logo" src="img/logo.jpg" alt="logo del sito"/> </a> 
+        </div>
+        </section>
+      <h1>OUTFIT FOR FESTIVAL</h1>
+      <hr class="linea">
+        <nav>
+
+           <!--Creo il pulsante per mostrare e nascondere il menu-->
+<!--Label crea un’etichetta per il checkbox, cliccando il quale si attiverà il pulsante per mostrare o nascondere il menu. 
+Nell'input il valore for deve essere uguale a quello dell’id per collegare i due elementi-->
+<label for="showmenu_principale" class="showmenu_principale">&#9776;</label>
+<input type="checkbox" id="showmenu_principale" role="button">
+
+          <ul id="menu">
+            <li><a class="link nounderline" href="index.html">HOME</a></li>
+            <li><a class="link nounderline" href="rock.html">ROCK</a></li>
+            <li><a class="link nounderline" href="pop.html">POP & INDIE</a></li>
+            <li><a class="link nounderline" href="techno.html">TECHNO & ELETTRONICA</a></li>
+            <li><a class="link nounderline" href="about.html">ABOUT US</a></li>
+          </ul>
+        </nav>      
+  </header>
+
+  <a id="tasto_top" href="#top"><i class="fa-sharp fa-solid fa-circle-up fa-2xl" style="color: #c561a0;"></i></a> <!--tasto per tornare su-->
+
+<section class="concerti1"> 
+  <h2>CONCERTI</h2>
+  <p id="testo_concerti">I concerti sono un’esperienza unica e irripetibile che riesce a coinvolgere le persone 
+    in modo intenso ed emozionante. La musica ha la capacità di unire le persone e di creare 
+    un’atmosfera magica di condivisone e di divertimento. I concerti offrono un’esperienza 
+    diversa dal solito e permettono di vivere la musica in modo più immersivo rispetto all’ascolto in streaming</p>
+
+      <h4>Ecco una lista dei prossimi concerti da non perdere in Italia!</h4>
+
+      <div class="container justify-content-evenly"> <!--tabella con date concerti-->
+        <div class="row text-center">
+
+          <div class="col-sm-12 col-md-12 col-lg-4 box_concerti">  <!--vasco-->
+            <p><p class="cantante">VASCO ROSSI</p>  <br>Bologna <br> Stadio Dall'Ara <br> 11 giugno</p> 
+            <button class="pulsante_concerti">
+              <a target="_blank" class="link nosott" href="https://www.ticketone.it/event/vasco-live-2023-stadio-dallara-16262021/">Biglietti qui</a>
+            </button>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4 box_concerti"> <!--tzn-->
+            <p> <p class="cantante">TIZIANO FERRO</p>  <br>Firenze <br>Stadio Artemio Franchi <br> 21 giugno </p>
+            <button class="pulsante_concerti">
+              <a target=“_blank” class="link nosott" href="https://www.ticketone.it/event/tiziano-ferro-tzn-2023-stadio-artemio-franchi-12001538/">Biglietti qui</a>
+            </button>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4 box_concerti"> <!--maneskin-->
+            <p><p class="cantante">MANESKIN</p>  <br>Roma <br>Stadio Olimpico <br>21 luglio </p> 
+            <button class="pulsante_concerti">
+              <a target=“_blank” class="link nosott" href="https://www.ticketone.it/event/maneskin-stadi-2023-stadio-olimpico-16018671/">Biglietti qui</a>
+            </button>
+          </div>
+        
+          <div class="col-sm-12 col-md-12 col-lg-4 box_concerti"> <!--RED HOT-->
+            <p><p class="cantante">RED HOT CHILI PEPPERS</p>  <br>Milano <br>Ippodromo SNAI La Maura <br> 2 luglio </p> 
+            <button class="pulsante_concerti">
+              <a target=“_blank” class="link nosott" href="https://www.ticketone.it/event/red-hot-chili-peppers-ippodromo-snai-la-maura-16285603/">Biglietti qui</a>
+            </button>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4 box_concerti"> <!--guns-->
+           <p><p class="cantante">GUNS N' ROSES</p>  <br>Roma <br>Circo Massimo <br>8 luglio</p> 
+           <button class="pulsante_concerti">
+            <a target="_blank" class="link nosott" href="https://www.ticketone.it/event/guns-n-roses-circo-massimo-16661656/">Biglietti qui</a>
+            </button>
+          </div> 
+
+          <div class="col-sm-12 col-md-12 col-lg-4 box_concerti"> <!--zucchero-->
+           <p><p class="cantante">ZUCCHERO</p>  <br>Roma <br>Terme di Caracalla <br> 30 maggio</p> 
+            <button class="pulsante_concerti">
+              <a target="_blank" class="link nosott" href="https://www.ticketone.it/event/zucchero-world-wild-tour-terme-di-caracalla-16658952/">Biglietti qui</a>
+            </button>
+          </div> 
+        
+          <div class="col-sm-12 col-md-12 col-lg-4 box_concerti"> <!--marra-->
+           <p><p class="cantante">MARRACASH</p>  <br>Napoli <br>Ippodromo di Agnano <br>30 settembre</p> 
+           <button class="pulsante_concerti">
+            <a target="_blank" class="link nosott" href="https://www.ticketone.it/event/marracash-ippodromo-di-agnano-16315846/">Biglietti qui</a>
+          </button></div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4 box_concerti"> <!--salmo-->
+            <p><p class="cantante">SALMO</p>  <br>Genova <br>Arena del Mare <br>5 luglio</p> 
+            <button class="pulsante_concerti">
+              <a target="_blank" class="link nosott" href="https://www.ticketone.it/event/salmo-date-estive-arena-mare-area-porto-antico-16851574/">Biglietti qui</a>
+            </button>
+          </div> 
+        
+          <div class="col-sm-12 col-md-12 col-lg-4 box_concerti"> <!--sfera-->
+            <p><p class="cantante">SFERA EBBASTA</p>  <br>Gallipoli <br>Parco Gondar <br>9 agosto</p> 
+            <button class="pulsante_concerti">
+              <a target="_blank" class="link nosott" href="https://www.ticketone.it/event/sfera-ebbasta-parco-gondar-16335843/">Biglietti qui</a>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+
+</section>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a class="mf" href="index.html">HOME</a></li>
+        <li><a class="mf" href="index.html">PRESENTAZIONE</a></li>
+        <li><a class="mf" href="documentazione.html">DOCUMENTAZIONE</a></li>
+        <li><a class="mf" href="index.html">TERMINI</a></li>
+        <li><a class="mf" href="index.html">PRIVACY POLICY</a></li>
+      </ul>
+    </nav>
+     <p>@ 2023 realizzato da Alessia Antoci</p>
+    <a target="_blank" href="https://www.instagram.com/off.outfitforfestival/"><i class="icone fa-brands fa-instagram fa-2xl" style="color: #deb1cd;"></i></a>
+    <a target="_blank" href="https://www.tiktok.com/@off.outfitforfestival?_t=8cOyb5kZzRr&_r=1"><i class="icone fa-brands fa-tiktok fa-2xl" style="color: #deb1cd;"></i></a>
+    <i class="icone fa-solid fa-square-envelope fa-2xl" style="color: #deb1cd;"></i> 
+    
+  </footer>
+  </body>    
+</html>

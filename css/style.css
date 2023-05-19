@@ -1,0 +1,526 @@
+                    /*HEADER E MENU*/
+header {
+    background-color: white;
+    color: #452238 ;
+    text-align: center;
+    margin-bottom: -0,7%;}
+
+.img-container {
+    text-align: center;
+position: relative;
+top: 30px;}
+
+#logo { 
+    height: 200px;
+    width: auto;
+    padding: top 5%;}
+
+h1 {  /*titolo principale*/
+    font-family:'Montserrat', sans-serif; ;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 15px;}
+
+nav ul li { /*menù principale e footer*/
+    display: inline-block;
+    text-align: center; 
+    border-bottom: 0%;}
+
+.link {/*link non cliccati*/
+    color: #452238;} 
+
+#menu{
+text-align: center;
+margin: 0% 5% -0.8% 0%;}
+
+.showmenu_principale {width:40px;border:1px solid #452238;margin:auto;color:black;text-align:center;font-size:30px;margin-bottom: 10px;
+    display:none; }
+
+input[type=checkbox]{
+    display:none}
+input[type=checkbox]:checked ~ #menu{
+    display:block}
+
+@media only screen and (max-width: 768px) { 
+#menu{border-radius:0;text-align:center;display:none}
+ul #menu li{display:block}/* rendo gli elementi dei menu elementi di blocco */   
+#menu li , ul li,ul li a{padding-right:0;padding-left:0;width:100%;border-right:none} /* imposto la larghezza massima per gli elementi dei menu e i links */
+#menu li:hover {display:block}  
+#menu li{position:static } /* resetto la posizione degli elementi del menu. static valore di default. Gli elementi sono mostrati in ordine, come appaiono nel flusso del documento */  
+#menu li {text-align: center;}
+#menu li {position: static;visibility:visible}
+#menu li:hover {margin:0} /* nessuna animazione al passaggio del mouse */  
+#menu li{background-color: white}/* colore di sfondo agli elementi del menu e del sottomenu */
+#menu li {background-color: white}  
+.showmenu_principale{display:block} /* mostro il pulsante del menu nella versione mobile*/ 
+.showmenu_principale{text-align: center;}
+}
+
+nav ul li a:hover { /*link con mouse sopra*/
+    color: #c4629f;
+    text-decoration: none;}
+
+.active { /*link pagina attuale*/
+    color: #c4629f;
+    }
+    
+.nounderline { /*menù principale non sottolieato*/
+    text-decoration: none;
+    padding: 10px 10px 0px 10px; 
+    line-height: 200%;}
+
+.linea {
+    background-color: #c4629f;
+    border-width:0;
+    height: 1px;
+    line-height:0;
+    margin: 0% 5% 3% 5%;
+    text-align: center;}
+
+
+
+                    /*PRIMA SEZIONE HOME*/
+h2 { /*titolo prima sezione home, titolo about*/
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    margin: 0% 20%;
+    color: #452238;
+    font-weight: 400;
+    text-align: center;}
+    
+    .introduzione { /*prima sezione*/
+    background-color: white;
+    color: #452238 ;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 25px;
+    line-height: 200%;
+    text-align: center;
+    padding: 3% 10%;}
+
+#palco { /*immagine prima sezione*/
+    width: 100%;
+    height: auto;}
+
+
+                    /*SECONDA SEZIONE HOME*/
+.cf { /*seconda sezione*/
+    background-color: white;
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;}
+
+.container { /*container seconda sezione*/
+    display: flex; 
+    justify-content: space-between;
+    padding: 5% 30% 10% 30% ;
+    text-align: center;
+    line-height: 50px; /* verticale */
+    border-bottom: 20;}
+
+.boxa { /*box concerti*/
+    width: 500px;
+    height: 500px;
+    border: 4px solid;
+    color: white;
+    background-color: #452238;
+    line-height: 50px; /* verticale */}
+
+.boxa img { /*immagine concerti*/
+    background-color: #c4629f;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    position: absolute
+    left 50%}
+
+.boxb { /*box festival*/
+    width: 500px;
+    height: 500px;
+    border: 4px solid;
+    color: white;
+    background-color: #452238;
+    line-height: 50px; /* verticale */}
+
+.boxb img { /*immagine festival*/
+    background-color: #c4629f;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    position: absolute
+    left 50%}
+
+.foto:hover { /*link immagini*/
+    opacity: 0.5;}
+    
+.foto { /*opacità immagini link*/
+    opacity: normal ;
+    transition: opacity .25s ease-in-out;
+    height: 400px;
+    width: 400px; }
+
+h3 { /*titolo seconda sezione home*/
+    font-family: 'Amatic SC', cursive;
+    margin: 0% 20%;
+    color: #deb1cd;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;}
+
+#titolo_cf:hover {
+    color: #c4629f;
+    text-decoration: none;
+}
+
+                    /*FOOTER*/
+footer { /*footer*/
+    background-color: #452238;
+    color: #deb1cd;
+    text-align: center;}
+
+.mf { /*menù footer*/
+    color: #deb1cd;
+    text-decoration: underline;} 
+
+.icone { /*icone footer*/
+    height: auto;
+    width: 50px;
+    margin-bottom: 5%;}
+
+  .menu_footer {
+    display: inline-block !important;}  
+
+
+
+
+                    /*PAGINA ABOUT*/
+.about{ /*sezione about*/
+    background-color: white;
+    color: #452238;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 25px;
+    line-height: 200%;
+    text-align: center;
+    padding-top: 3%;}  
+
+.boxe { /*box contatti about*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: left;
+    line-height: 150%;
+    align-items: left;
+    padding-left: 30%;}
+        
+.boxf { /*box newsletter about*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: right;
+    align-items: right;
+    padding-right: 0%;
+    float: right;}
+
+.iscrizionenewsletter { /*newsletter*/  
+    background-color: white;
+    color: #452238;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    height: fit-content;}
+
+h5 { /*titoli minori about*/
+    font-family: 'Amatic SC', cursive;
+    color: #452238;
+    font-weight: 700;
+    font-style: bold;}
+
+#pulsante_newsletter { /*pulsante*/
+    background-color: #c4629f;
+    color: #deb1cd;
+    padding: 0% 3%;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    border: 3px;
+    border-radius:10px;}
+    
+.form-label { /*scritte inserire mail*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #452238;}
+
+#link_ig {
+    color: #452238;
+}
+
+#link_ig:hover {
+    color: #c4629f;
+    text-decoration: none;
+}
+
+        
+
+                    /*SEZIONE PRINCIPALE PAGINE*/
+.consigli { /*sezione principale pagine*/
+    background-color: white ;
+    margin-top: 5%;
+    color: #452238;
+    text-align: center;
+    letter-spacing: 2px;
+    height: max-content;}
+
+.boxc { /*box testo pagine*/
+    background-color: white;
+    color: #452238;
+    line-height: 130%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 20px;
+    padding: 0% 2%;
+    height: fit-content;}
+
+.boxd { /*box per gallery*/
+    height: fit-content;}
+
+
+.consigli {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 200%;
+    text-align: center;}
+
+
+                    /*SEZIONE PULSANTI PAGINE*/
+
+.consigli1 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 200%;
+    text-align: center;
+    padding-top: 5%;
+    margin-top: 5%;
+    line-height: 130%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 20px;
+    color: #452238;}  
+
+.pulsante_liste { /*bottoni pagine*/
+    background-color: #c4629f;
+    color: #deb1cd;
+    margin-top: auto;
+    margin-bottom: 5%;
+    outline: none; /*no contorno*/
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px #deb1cd;
+    border-radius:10px;
+    padding: 5% 10%;
+    width: max-content;}
+
+hr { /*linea divisoria*/
+    background-color: #c4629f;
+    border-width:0;
+    height: 4px;
+    line-height:0;
+    margin: 0% 5%;
+    text-align: center;}
+
+#testo_bottoni {
+    font-family: 'Amatic SC', cursive;
+    color: #452238;
+    font-weight: 400;
+    font-size: larger;
+}
+
+#testo_bottoni:hover {
+    color: #deb1cd;
+    text-decoration: none;
+}
+                    /*PAGINA FESTIVAL*/
+
+.festival1 { /*sezione principale*/
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: bold italic;
+    font-size: 22px;
+    padding-top: 10px;}
+
+.Testo_festival { /*singole sezioni con immagine e testo*/
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 19px;
+    padding-top: 5px;
+    color: #452238;
+    background-color: white;
+    margin-top: 10%;
+}
+
+#foto_festival { /*immagini*/
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+h4 { /*titoli pagine*/
+    font-family: 'Amatic SC', cursive;
+    color: #c4629f;
+    font-weight: 700;
+    font-style: bold;
+    font-size:x-large;
+    text-align: center;
+    padding-top: 5%;
+    letter-spacing: 4px;}
+
+.festival_ita {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: semibold italic;
+    font-size: 22px;
+    color: #452238;
+}
+
+
+                    /*PAGINA CONCERTI*/
+
+
+.concerti1 {
+    margin-top: 5%;
+    justify-content: space-between;
+    text-align: center;
+}
+#testo_concerti {
+    margin: 2% 5%;
+    color: #452238;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    background-color: #fff; }
+
+.box_concerti {
+    width: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    color: #452238;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: white;
+    justify-content: space-between;
+    margin: auto;
+    line-height: 25px;}
+
+
+.pulsante_concerti {
+    background-color: #deb1cd;
+    color: #c4629f;
+    margin-bottom: 12%;}
+
+
+.cantante {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: bold italic;
+    font-size: 22px;
+    color: #452238;
+    margin-bottom: -10px;
+
+}
+
+.nosott:hover {
+    color: #c4629f;
+    text-decoration: none;
+}
+
+                    /*DOCUMENTAZIONE*/
+
+.documentazione {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 20px;
+    color: #452238;
+    margin: 3% ;
+    text-align: center;
+}
+
+.struttura_e_layout {
+    text-align: center;
+}
+
+.wireframe { 
+    width: 80%;
+    height: auto;
+    margin-bottom: 7%;
+}
+
+.plan {
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+}
+
+#look {
+    text-align: left;
+}
+
+.titoli_doc {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: bold italic;
+    font-size: 22px;
+    color: #c4629f;
+    text-align: left;
+    margin-top: 5%;
+}
+
+#palette_colori {
+    width: 95%;
+    height: auto;
+}
+
+.competitor {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 20px;
+    color: #452238;
+}
+
+.communication_strategy {
+    text-align: left;
+}
+
+                    /*CAROSELLO*/
+.carousel {
+    width: 100%;
+    height: 500px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.carouselslide { /*gallery*/
+
+    background-color: #deb1cd;
+    padding: 3%;
+    height: 40px;
+    width: auto;}
+
+
+                    /*TASTO PER TORNARE SU*/
+#tasto_top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+}
+

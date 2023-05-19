@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">    
+     <head>
+        <title>OFF</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+       
+        <link href="https://fonts.googleapis.com/css2? family=Amatic+SC:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f3979af750.js" crossorigin="anonymous"></script>
+      </head>
+
+    <body>
+        <header>
+            <section>
+              <div class="img-container"> 
+                 <a id="top" href="index.html"><img id="logo" src="img/logo.jpg" alt="logo del sito"/> </a>
+              </div>
+              </section>
+            <h1>OUTFIT FOR FESTIVAL</h1>
+            <hr class="linea">
+              <nav>
+
+                 <!--Creo il pulsante per mostrare e nascondere il menu-->
+<!--Label crea un’etichetta per il checkbox, cliccando il quale si attiverà il pulsante per mostrare o nascondere il menu. 
+Nell'input il valore for deve essere uguale a quello dell’id per collegare i due elementi-->
+              <label for="showmenu_principale" class="showmenu_principale">&#9776;</label>
+              <input type="checkbox" id="showmenu_principale" role="button">
+
+                <ul id="menu">
+                  <li><a class="link nounderline" href="index.html">HOME</a></li>
+                  <li><a class="link nounderline" href="rock.html">ROCK</a></li>
+                  <li><a class="link nounderline" href="pop.html">POP & INDIE</a></li>
+                  <li><a class="link nounderline" href="techno.html">TECHNO & ELETTRONICA</a></li>
+                  <li><a class="active nounderline" href="about.html">ABOUT US</a></li>
+                </ul>
+              </nav>      
+            </header> 
+          <a id="tasto_top" href="#top"><i class="fa-sharp fa-solid fa-circle-up fa-2xl" style="color: #c561a0;"></i></a> <!--tasto per tornare su-->
+          <section class="about">
+            <h2>About us</h2>
+            <p> Per stare bene in mezzo alle persone è necessario stare bene con sé stessi.<br>
+            Quante volte è capitato di sentirci in soggezione perché pensavamo di sembrare inadeguati o fuoriluogo? <br>
+            OFF nasce da qui con l'obiettivo di permettere a tutti di sentirsi a proprio agio in quelle <br>
+            situazioni dove ci sentiamo come un pesce fuor d'acqua.</p>
+            
+              <div class="container justify-content-center">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-6 boxe"> <h5>Contatti</h5> 
+                    <p>Email: off.outfitforfestival@gmail.com <br>
+                    Telefono: +39 1234567890 <br>
+                    Instagram:
+                  <a target="_blank" id="link_ig" href="https://www.instagram.com/off.outfitforfestival/">@off.outfitforfestival</a> </p>
+                  </div>
+                  <div class="col-sm boxf"> <h5>Iscriviti alla newsletter</h5> 
+                      <section class="iscrizionenewsletter">
+                        <form>
+                          <div class="mb-3">
+                           <label for="exampleInputEmail1" class="form-label">Inserisci il tuo indirizzo email</label>
+                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                           <div id="emailHelp" class="form-label">Rimani sempre aggiornato sui prossimi festival in programma!</div>
+                          </div>
+                          <button id="pulsante_newsletter" >Invia</button>
+                        </form>
+                      </section>
+                  </div>
+                </div>
+              </div>
+          </section> 
+
+        
+        
+        <footer>
+          <nav>
+            <ul>
+              <li><a class="mf" href="index.html">HOME</a></li>
+              <li><a class="mf" href="index.html">PRESENTAZIONE</a></li>
+              <li><a class="mf" href="documentazione.html">DOCUMENTAZIONE</a></li>
+              <li><a class="mf" href="index.html">TERMINI</a></li>
+              <li><a class="mf" href="index.html">PRIVACY POLICY</a></li>
+            </ul>
+          </nav>  
+          <p>@ 2023 realizzato da Alessia Antoci</p>
+          <a target="_blank" href="https://www.instagram.com/off.outfitforfestival/"><i class="icone fa-brands fa-instagram fa-2xl" style="color: #deb1cd;"></i></a>
+          <a target="_blank" href="https://www.tiktok.com/@off.outfitforfestival?_t=8cOyb5kZzRr&_r=1"><i class="icone fa-brands fa-tiktok fa-2xl" style="color: #deb1cd;"></i></a>
+          <i class="icone fa-solid fa-square-envelope fa-2xl" style="color: #deb1cd;"></i>
+          
+        </footer>
+
+    </body>   
+</html>
