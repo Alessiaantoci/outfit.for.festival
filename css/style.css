@@ -501,6 +501,12 @@ h4 { /*titoli pagine*/
     text-align: left;
 }
 
+.prove {
+    margin-bottom: 5%;
+    width: 60%;
+    height: auto;
+}
+
                     /*CAROSELLO*/
 .carousel {
     width: 100%;
