@@ -508,10 +508,9 @@ h4 { /*titoli pagine*/
 }
 
 #prova_visualizzazioni {
-    widht: 70%;
+    width: 70%;
     height: auto;
- }
-
+}
 
                     /*CAROSELLO*/
 .carousel {
